@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension
+	type="library"
+	version="3.2"
+	method="upgrade">
+	<!-- Note: Site is the default if client is not specified -->
+	<name>connectDaily Events Calendar Library</name>
+	<libraryname>connectdaily</libraryname>
+	<author>MH Software, Inc.</author>
+	<authorEmail>support@mhsoftware.com</authorEmail>
+	<creationDate>October 2017</creationDate>
+	<authorUrl>http://www.mhsoftware.com</authorUrl>
+	<copyright>(C) 2017 Copyright, MH Software, Inc.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<version>1.0.27</version>
+	<description>A library of Common Files used by the various connectDaily plugins and modules.</description>
+	<files>
+		<filename>class-cdaily-base-renderer.php</filename>
+		<filename>class-cdaily-crypto.php</filename>
+		<filename>class-cdaily-plugin.php</filename>
+		<filename>class-cdaily-joomla.php</filename>
+		<filename>class-cdaily-model.php</filename>
+		<filename>class-cdaily-external-link.php</filename>
+		<filename>class-cdaily-datetime.php</filename>
+        <filename>detailed-list.php</filename>
+		<filename>display-calendar.php</filename>
+		<filename>class-timedata.php</filename>
+		<filename>class-cdaily-eventsrenderer.php</filename>
+		<filename>CDailySettings.php</filename>
+		<filename>class-cdaily-misc.php</filename>
+		<filename>if-locale-helper.php</filename>
+		<filename>CDailyAddEvent.php</filename>
+        <filename>CDailySearch.php</filename>
+		<filename>CDailySocialNetworkHelper.php</filename>
+		<filename>CDailySSO.php</filename>
+		<filename>class-joomla-locale-helper.php</filename>
+		<filename>index.html</filename>
+		<filename>terms.html</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>language</folder>
+		<folder>scripts</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.lib_connectdaily.ini</language>
+		<language tag="en-GB">en-GB/en-GB.lib_connectdaily.sys.ini</language>
+		<language tag="de-AT">de-AT/de-AT.lib_connectdaily.ini</language>
+		<language tag="de-CH">de-CH/de-CH.lib_connectdaily.ini</language>
+		<language tag="de-DE">de-DE/de-DE.lib_connectdaily.ini</language>
+		<language tag="es-ES">es-ES/es-ES.lib_connectdaily.ini</language>
+		<language tag="es-MX">es-ES/es-MX.lib_connectdaily.ini</language>
+		<language tag="fr-BE">fr-BE/fr-BE.lib_connectdaily.ini</language>
+		<language tag="fr-CA">fr-CA/fr-CA.lib_connectdaily.ini</language>
+		<language tag="fr-CH">fr-CH/fr-CH.lib_connectdaily.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.lib_connectdaily.ini</language>
+		<language tag="fr-NL">fr-NL/fr-NL.lib_connectdaily.ini</language>
+	</languages>
+</extension>
